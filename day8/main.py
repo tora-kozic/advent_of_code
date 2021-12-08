@@ -40,6 +40,8 @@ def cipher(m, n):
             val[i] = five(d, n[i])
         elif l == 6:
             val[i] = six(d, n[i])
+        else:
+            return 'ERROR'
 
     total = ''
     for digit in val:
