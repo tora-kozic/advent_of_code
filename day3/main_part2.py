@@ -1,7 +1,6 @@
 def generate_rates(f):
     # split numbers by most common digit
     lines = f.readlines()
-    #l = len(lines[0]) - 1
     c = helper(lines, 0)
     o = helper(lines, 0, common=False)
     p = int(c, 2) * int(o, 2)
