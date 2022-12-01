@@ -58,7 +58,7 @@ def calc_score(d):
     return score
 
 
-f = open("input.txt","r")
+f = open("input.txt", "r")
 s = build_diagram(f)
 print(s)
 f.close()
