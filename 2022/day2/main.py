@@ -40,10 +40,7 @@ def part_two(lines):
     def score_line(line):
         l = [l.strip() for l in line.split(" ")]
         s = shape[l[1]]
-        try:
-            return s + matchup[l[0]][l[1]]
-        except KeyError:
-            return s + LOSE
+        return s + matchup[l[0]][l[1]]
 
     scores = [score_line(l) for l in lines]
 
