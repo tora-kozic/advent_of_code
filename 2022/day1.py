@@ -1,6 +1,6 @@
 N_MAX = 2
 
-f = open("input.txt", "r")
+f = open("day1/input.txt", "r")
 lines = f.readlines()
 max_cals = []
 min_max = 0

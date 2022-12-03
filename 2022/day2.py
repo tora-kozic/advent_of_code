@@ -45,10 +45,3 @@ def part_two(lines):
     scores = [score_line(l) for l in lines]
 
     return sum(scores)
-
-
-f = open("input.txt", "r")
-lines = f.readlines()
-print(f"PART ONE: {part_one(lines)}")
-print(f"PART TWO: {part_two(lines)}")
-f.close()
